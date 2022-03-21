@@ -1,0 +1,6 @@
+poetry init    
+poetry add flask-restful  
+poetry add Flask-SQLAlchemy
+poetry add pydantic   
+poetry add 'pydantic[email]'
+poetry run python main.py   
